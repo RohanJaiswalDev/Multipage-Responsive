@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of my page -->
+    <title>Multipage | About</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <!-- Boxicons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/Img/Favicon.jpg" type="image/x-icon">
+
+    <style>
+        #about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #about h1 {
+            position: relative;
+            text-transform: uppercase;
+        }
+
+        #about h1::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 20%;
+            width: 60px;
+            height: 4px;
+            border-radius: 5px;
+            background: red;
+        }
+
+        #about p {
+            letter-spacing: 0.6px;
+            line-height: 28px;
+            margin: 20px 0;
+            color: #1f273e;
+        }
+
+        .about-btns {
+            display: flex;
+            gap: 30px;
+        }
+
+        #about #btn {
+            background: linear-gradient(to left, skyblue, #688af0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 20px;
+            border-radius: 20px;
+            width: 150px;
+        }
+
+        #about a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: 0.3s ease-in;
+        }
+
+        #about a:hover {
+            transform: scale(1.09);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Section -->
+        <section id="about">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, itaque odio repudiandae ullam maxime
+                animi eligendi! Modi, architecto? Nemo, eveniet debitis delectus ullam consequuntur molestiae sit,
+                nostrum blanditiis, officiis aliquam in atque magnam autem nihil exercitationem! Ad unde nisi voluptatum
+                ipsa molestias consequatur quam deleniti nulla quod, temporibus odit, voluptas facere, eligendi quisquam
+                a deserunt cum. Dolore ipsum laboriosam odio facilis nisi laborum amet at? Quod consequatur dolore nulla
+                rem adipisci nesciunt mollitia ipsa, reiciendis dolor quam tempora nostrum officia unde repellendus,
+                accusamus, ad aspernatur. Incidunt, maxime a. Quisquam quas harum voluptate quae, magnam vero enim.
+                Alias rerum facilis sequi?</p>
+            <div class="about-btns">
+                <a href="#" id="btn">My Resume</a>
+                <a href="Projects.html" id="btn">Projects</a>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="foot-content">
+            <div class="links">
+                <div class="github">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </div>
+                <div class="instagram">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <div class="twitter">
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+                <div class="linkedin">
+                    <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+            </div>
+            <p>&copy; 2025. Designed | <a href="http://rohanjaiswal.info" target="_blank">RohanJaiswal</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

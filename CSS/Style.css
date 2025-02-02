@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background: #1f5e5a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+header nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 1px;
+    transition: 300ms ease-in;
+    background: white;
+}
+
+header nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    background: #000;
+    padding: 30px;
+}
+
+footer .foot-content .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bx {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in;
+}
+
+.bx:hover {
+    color: #6d6d6d;
+}
+
+footer .foot-content p {
+    color: #fff;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+footer .foot-content a {
+    text-align: center;
+    color: chocolate;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+footer p a:hover {
+    color: aqua;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    #about{
+        padding: 400px 20px;
+    }
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of my page -->
+    <title>Multipage | Projects</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <!-- Boxicons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/Img/Favicon.jpg" type="image/x-icon">
+
+    <style>
+        #project {
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        #project h1 {
+            position: relative;
+            text-transform: uppercase;
+        }
+
+        #project h1::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 47%;
+            width: 90px;
+            height: 4px;
+            border-radius: 5px;
+            background: red;
+        }
+
+        #project .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        #project .gallery .img {
+            flex: 1 1 350px;
+            max-width: 350px;
+            text-align: center;
+            box-shadow: 0px 4px 10px #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease-in;
+        }
+
+        #project .gallery .img:hover {
+            transform: scale(1.07);
+        }
+
+        #project .gallery .img img {
+            border-radius: 10px;
+        }
+
+        #project .gallery .img p {
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        #project .gallery .img a {
+            background: crimson;
+            padding: 5px 10px;
+            text-transform: uppercase;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+
+        <!-- Section -->
+        <section id="project">
+            <h1>My Projects</h1>
+            <div class="gallery">
+                <div class="img">
+                    <img src="http://placehold.co/250" alt="project">
+                    <p>Project-1</p>
+                    <a href="#">Visit</a>
+                </div>
+                <div class="img">
+                    <img src="http://placehold.co/250" alt="project">
+                    <p>Project-2</p>
+                    <a href="#">Visit</a>
+                </div>
+                <div class="img">
+                    <img src="http://placehold.co/250" alt="project">
+                    <p>Project-3</p>
+                    <a href="#">Visit</a>
+                </div>
+                <div class="img">
+                    <img src="http://placehold.co/250" alt="project">
+                    <p>Project-4</p>
+                    <a href="#">Visit</a>
+                </div>
+                <div class="img">
+                    <img src="http://placehold.co/250" alt="project">
+                    <p>Project-5</p>
+                    <a href="#">Visit</a>
+                </div>
+                <div class="img">
+                    <img src="http://placehold.co/250" alt="project">
+                    <p>Project-6</p>
+                    <a href="#">Visit</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="foot-content">
+            <div class="links">
+                <div class="github">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </div>
+                <div class="instagram">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <div class="twitter">
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+                <div class="linkedin">
+                    <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+            </div>
+            <p>&copy; 2025. Designed | <a href="http://rohanjaiswal.info" target="_blank">RohanJaiswal</a></p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="JS/Script.js"></script>
+
+
+</body>
+
+</html>
